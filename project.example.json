@@ -1,0 +1,19 @@
+{
+  "title": "My trip 2025",
+  "utc_offset_hours": 1,
+  "work_dir": "work",
+  "gpu": true,
+  "sources": [
+    {"dir": "media/phone-1", "prefix": "A", "camera": "Phone 1"},
+    {"dir": "media/phone-2", "prefix": "B", "camera": "Phone 2"},
+    {"dir": "media/gopro", "camera": "GoPro", "gopro": true, "clock_utc_offset_hours": 0}
+  ],
+  "places": [
+    ["2025-06-01", "First city"],
+    ["2025-06-04 10:00", "Second place"]
+  ],
+  "director_blocks": {},
+  "whisper": {"model": "large-v3", "languages": ["en"]},
+  "fonts": {},
+  "land_geojson": "assets/maps/ne_50m_land.geojson"
+}

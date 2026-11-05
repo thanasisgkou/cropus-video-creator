@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# never commit footage, projects or renders
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.LRV
+*.THM
+*.jpg
+*.jpeg
+*.JPG
+*.heic
+*.HEIC
+*.mp3
+*.wav
+work/
+analysis/
+demo-trip/
+previews/
